@@ -47,4 +47,22 @@ body{
     background-position: left;
 }
 
+#uncomon-border{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,green);
+    border-image-slice:1;
 
+    
+
+}
+#uncomon-border-02{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,pink);
+    border-image-slice:1;
+
+
+
+}
+footer p{
+    text-align: center;
+}
