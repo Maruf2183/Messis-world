@@ -2,7 +2,7 @@ body{
     margin:0%;
     font-family: 'Open Sans Condensed', sans-serif;
 }
-section{
+.flexible{
     display: flex;
 
 }
@@ -36,5 +36,17 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
-
+.shadow{
+    box-shadow: grey 9px 29px 40px;
+    margin-left: 5%;
+    padding: 15px;
+}
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.scrolling{
+    height: 1500px;
+}
 
